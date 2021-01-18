@@ -58,7 +58,6 @@
 
 (defn page []
   [:div
-   [reg/registration-form]
    [(pages (session/get :page))]])
 
 ;; -------------------------
